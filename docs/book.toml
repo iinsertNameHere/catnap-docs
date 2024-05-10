@@ -1,0 +1,6 @@
+[book]
+authors = ["iinsertNameHere"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Catnip Systemfetch"
