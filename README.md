@@ -1,12 +1,13 @@
-# CATNIP.XYZ
+# 🌿 Catnip Documentation
+View the site [here](https://iinsertNameHere.github.io/catnip-docs)
 
-## Build docs
+## ✏️ Editing the site
+The source files for the site are in docs/src/
 
-1. Install `mdbook`
+## 🚧 Building the site
+The site utilizes [mdbook](https://github.com/rust-lang/mdBook) to build the site.
+To build the site, you must be in the `docs/` directory, and then run `mdbook build`.
+The site will be in `docs/book`.
 
-2. Build mdbook project
-```
-$ cd docs && mdbook build && cd ..
-```
-
-3. Output in `./docs/book`
+## 🧪 Testing
+To test the site, run `mdbook serve` in the `docs/` directory and go to http://localhost:3000
