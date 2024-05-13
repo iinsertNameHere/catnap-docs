@@ -1,12 +1,3 @@
-# CATNIP.XYZ
+# CATNIP DOCS
 
-## Build docs
-
-1. Install `mdbook`
-
-2. Build mdbook project
-```
-$ cd docs && mdbook build && cd ..
-```
-
-3. Output in `./docs/book`
+View the site [here](https://iinsertNameHere.github.io/catnip-docs)
