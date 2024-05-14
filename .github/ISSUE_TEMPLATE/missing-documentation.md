@@ -1,6 +1,6 @@
 ---
 name: Missing Documentation
-about: Report missing documentation
+about: Missing Documentation
 title: "[Missing Docs]"
 labels: ''
 assignees: ''
