@@ -1,5 +1,5 @@
 # 🌿 Catnip Documentation
-View the site [here](https://iinsertNameHere.github.io/catnip-docs) or at [doc.catnip-fetch.xyz](https://doc.catnip-fetch.xyz/)
+View the site [here](https://iinsertNameHere.github.io/catnip-docs)
 
 ## ✏️ Editing the site
 The source files for the site are in docs/src/
