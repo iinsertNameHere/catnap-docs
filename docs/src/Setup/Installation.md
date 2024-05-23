@@ -10,7 +10,7 @@ $ yay -S catnip-git
 
 **1.** Install all dependencies:
 - **Required:**
-`nim, pcre, gzip`
+`nim, pcre, gzip, usbutils`
 - **Optional:** `figlet, viu`
 
 **2.** Clone the official catnip repository:
