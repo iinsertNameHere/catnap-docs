@@ -2,6 +2,8 @@
 
 **File:** `config.toml`
 
+> **NOTE:** The execution time of Catnip will increase when enabling the package manager stat.
+
 ## Icons
 You can change the icon of any `stat` in side of the `[stats]` section.
 
