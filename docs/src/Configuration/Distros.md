@@ -7,7 +7,7 @@ To create a new DistroArt object, add a new section to the file (replace `distro
 [distroname]
 ```
  
-Catnip's DistroArt Objects have three possible keys.
+Catnip's DistroArt objects have three possible keys.
 1. `margin`
 2. `art`
 3. `alias`
@@ -41,7 +41,7 @@ The `margin` key is used to define the top, left and right margins of the art. F
 ```
 
 ## Art
-The `art` key is used to define the ascii-art for your distro.
+The `art` key is used to define the ASCII-art for your distro.
 For example:
 ```
 art = [

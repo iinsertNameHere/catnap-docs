@@ -2,9 +2,9 @@
 
 **File:** `config.toml`
 
-The `[misc.imageMode]` section is used to configure the `ImageMode` feature, which lets you display an image instead of ascii Art iside of you terminal.
+The `[misc.imageMode]` section is used to configure the `ImageMode` feature, which lets you display an image instead of ASCII Art inside of you terminal.
 
-> **NOTE:** For this to work, the optional dependency `viu` has to be installed.
+> **NOTE:** For this to work, the dependency `viu` has to be installed.
 
 ## Enable/Disable
 To enable or disable `figletLogos`, just set the `enable` variable to `true`/`false`.

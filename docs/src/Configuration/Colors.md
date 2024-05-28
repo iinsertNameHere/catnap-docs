@@ -22,3 +22,6 @@ Catnip's color system uses a ColorId, which is made up of the colors first and l
 So, for example: `{GN}` translates to `Foreground-Bright-Green`.
 
 To set the color to Default, use `!DT!`.
+
+>**Tip:**
+>The colors are dependent on your terminal's colors.
