@@ -17,7 +17,7 @@ This will use the specified distro logo as long as it is in the distros.toml fil
 ```bash
 $ catnip -v
 ```
-This will show the commit hash your version of catnip is build on.
+This will show the commit hash your version of catnip is built on.
 
 ## Get a list of arguments:
 ```bash
@@ -28,7 +28,7 @@ $ catnip --help
 ```bash
 $ catnip -g <stat>
 ```
-This will output the value of the stat into standard output.
+This will output the value of the stat to standard output.
 
 ## Change the location of the config.toml file
 ```bash
@@ -55,6 +55,7 @@ The format for the margin is: x,x,x (where x is a number)
 $ catnip -l <layout>
 ```
 This changes the layout of the logo or stats
+
 Available layouts:
 - StatsOnTop
 - ArtOnTop
@@ -76,4 +77,4 @@ The format for the margin is: x,x,x (where x is a number)
 $ catnip -ff <font file>
 ```
 >**Tip:**
->You will need a Figlet font file for this option, otherwise it will error out. You can get font files at http://www.figlet.org/fontdb.cgi
+>You will need a Figlet font file for this option, otherwise it will error out. You can get font files at <http://www.figlet.org/fontdb.cgi>

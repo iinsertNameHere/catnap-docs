@@ -12,7 +12,7 @@ Using the `layout` variable you can define how the logo and stats will be arrang
 layout = "Inline"
 ```
 
-In the example above, the `logo` and `stats` will be placed next to eachother.
+In the example above, the `logo` and `stats` will be placed next to each other.
 
 ## Stats Margin Top
 The `stats_margin_top` dictates how many lines the `StatsBlock` will be placed down.
