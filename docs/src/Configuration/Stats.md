@@ -2,7 +2,7 @@
 
 **File:** `config.toml`
 
-> **NOTE:** The execution time of Catnip will increase when enabling the package manager stat.
+> **NOTE:** The execution time of Catnip will increase when enabling the package manager, weather and GPU stats. Catnip **cannot** in any way decrease the time for the weather and package manager stats. This is due to the fact that the package manager stat is dependent on the speed of your distro's package manager, and the weather stat is dependent on your internet speed as well as the response time of the weather info website, [wttr.in](https://github.com/chubin/wttr.in).
 
 ## Icons
 You can change the icon of any `stat` inside of the `[stats]` section.

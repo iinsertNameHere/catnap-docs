@@ -11,10 +11,13 @@ $ yay -S catnip-git
 **1.** Install all dependencies:
 - **Required:**
     - Build dependencies: `nim, gzip`
-    - Runtime dependencies: `pcre, usbutils`
+    - Runtime dependencies: `pcre`
+
 - **Optional:**
     - `figlet`: For figlet logos mode.
     - `viu`: For image mode.
+    - `curl`: For weather stat.
+    - `usbutils`: For multi-disk support.
 
 **2.** Clone the official catnip repository:
 ```shell
@@ -33,4 +36,4 @@ nim install
 This will automatically build catnip and install it inside of your `/usr/local/bin` folder.
 
 > **IMPORTANT**:
-> For the default icons to work, make sure you set a [NerdFont](https://www.nerdfonts.com/) as you terminal font.
+> For the default icons to work, make sure you set a [NerdFont](https://www.nerdfonts.com/) as you terminal font. In addition, for the weather module to work, you will need a font that supports emojis.
