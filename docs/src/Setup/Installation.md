@@ -11,13 +11,13 @@ $ yay -S catnip-git
 **1.** Install all dependencies:
 - **Required:**
     - Build dependencies: `nim, gzip`
-    - Runtime dependencies: `pcre`
+    - Runtime dependencies: `pcre`, `usbutils`
 
 - **Optional:**
     - `figlet`: For figlet logos mode.
     - `viu`: For image mode.
     - `curl`: For weather stat.
-    - `usbutils`: For multi-disk support.
+    - `pciutils`: For GPU stat.
 
 **2.** Clone the official catnip repository:
 ```shell
