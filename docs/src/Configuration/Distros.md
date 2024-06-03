@@ -7,7 +7,7 @@ To create a new DistroArt object, add a new section to the file (replace `distro
 [distroname]
 ```
  
-Catnip's DistroArt objects have three possible keys.
+Catnap's DistroArt objects have three possible keys.
 1. `margin`
 2. `art`
 3. `alias`

@@ -2,7 +2,7 @@
 
 **File:** `config.toml`
 
-> **NOTE:** The execution time of Catnip will increase when enabling the package manager, weather and GPU stats. Catnip **cannot** in any way decrease the time for the weather and package manager stats. This is due to the fact that the package manager stat is dependent on the speed of your distro's package manager, and the weather stat is dependent on your internet speed as well as the response time of the weather info website, [wttr.in](https://github.com/chubin/wttr.in).
+> **NOTE:** The execution time of Catnap will increase when enabling the package manager, weather and GPU stats. Catnap **cannot** in any way decrease the time for the weather and package manager stats. This is due to the fact that the package manager stat is dependent on the speed of your distro's package manager, and the weather stat is dependent on your internet speed as well as the response time of the weather info website, [wttr.in](https://github.com/chubin/wttr.in).
 
 ## Icons
 You can change the icon of any `stat` inside of the `[stats]` section.
@@ -77,7 +77,7 @@ You can use `separators` to add a horizontal line across the `StatsBlock`.
 ╰────────────╯
 ```
 
-You define a new `separator` using the prefix `sep_` and a unique name. The value of the `separator` can be anything as it's not used by catnip.
+You define a new `separator` using the prefix `sep_` and a unique name. The value of the `separator` can be anything as it's not used by catnap.
 
 ```toml
 sep_[name] = "My very cool separator!!!"
@@ -96,5 +96,5 @@ The disk with index `0` is always the system drive.
 
 You can get all available *disk* `stats` using:
 ```shell
-$ catnip -g disks
+$ catnap -g disks
 ```

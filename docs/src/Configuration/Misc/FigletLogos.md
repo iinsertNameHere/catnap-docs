@@ -5,7 +5,7 @@
 The `[misc.figletLogos]` sections contains variables to configure *Figlet generated text logos*.
 
 > **NOTE:** For this to work, the optional dependency `figlet` has to be installed.
-> You will also need a figlet font file. You can get them at <http://www.figlet.org/fontdb.cgi> or the `basic.flf` font file from the `scripts/` folder in the Catnip repo.
+> You will also need a figlet font file. You can get them at <http://www.figlet.org/fontdb.cgi> or the `basic.flf` font file from the `scripts/` folder in the Catnap repo.
 
 ## Enable/Disable
 To enable or disable `figletLogos`, just set the `enable` variable to `true`/`false`.

@@ -1,5 +1,5 @@
 # 🎨 Colors
-Catnip's color system uses a ColorId, which is made up of the colors first and last letter, enclosed in characters that indicate the type of color.
+Catnap's color system uses a ColorId, which is made up of the colors first and last letter, enclosed in characters that indicate the type of color.
 
 **Color Types:**
 - Foreground Normal  -> `(#)`

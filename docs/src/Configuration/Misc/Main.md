@@ -19,7 +19,7 @@ The `stats_margin_top` dictates how many lines the `StatsBlock` will be placed d
 
 *`stats_margin_top` is set to `3`:*
 ```
-$ catnip
+$ catnap
     :
     : 3x
     :
@@ -36,7 +36,7 @@ $ catnip
 
 *`stats_margin_top` is set to `1`:*
 ```
-$ catnip
+$ catnap
     : 1x
 ╭────────────╮
 │ > user     │
