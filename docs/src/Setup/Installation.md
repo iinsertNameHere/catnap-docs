@@ -1,5 +1,11 @@
 # 🪡 Installing Catnap
 
+## Arch Linux
+If you are using any Arch-based distro with access to the [AUR](https://aur.archlinux.org/), you can install the [catnap-git](https://aur.archlinux.org/packages/catnap-git) package using your preferred AUR helper.
+```sh
+$ paru -S catnap-git
+```
+
 ## Build from source
 
 **1.** Install all dependencies:
