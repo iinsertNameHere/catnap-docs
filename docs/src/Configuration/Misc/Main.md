@@ -2,6 +2,15 @@
 
 **File:** `config.toml`
 
+## Border Style
+The `borderstyle` variable determines the type of border the stats section will be enclosed in.
+Currently, Catnap supports 5 border styles:
+- `line` (The default border style.)
+- `dashed`
+- `dotted`
+- `noborder`
+- `doubleline`
+
 ## Layout
 Using the `layout` variable you can define how the logo and stats will be arranged.
 - Use `Inline` to place the logo and stats next to each other.
