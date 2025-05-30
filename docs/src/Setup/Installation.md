@@ -36,4 +36,4 @@ nim install
 This will automatically build catnap and install it inside of your `/usr/local/bin` folder.
 
 > **IMPORTANT**:
-> For the default icons to work, make sure you set a [NerdFont](https://www.nerdfonts.com/) as you terminal font. In addition, for the weather module to work, you will need a font that supports emojis.
+> For the default icons to work, make sure you set a [NerdFont](https://www.nerdfonts.com/) as your terminal font. In addition, for the weather module to work, you will need a font that supports emojis.
