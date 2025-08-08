@@ -1,23 +1,14 @@
 # 🪡 Installing Catnap
 
-## Arch Linux
-If you are using any Arch-based distro with access to the [AUR](https://aur.archlinux.org/), you can install the [catnap-git](https://aur.archlinux.org/packages/catnap-git) package using your preferred AUR helper.
-```sh
-$ paru -S catnap-git
-```
-
 ## Build from source
 
 **1.** Install all dependencies:
 - **Required:**
     - Build dependencies: `nim, gzip`
-    - Runtime dependencies: `pcre`, `usbutils`
+    - Runtime dependencies: `pcre`, `usbutils`, `glxinfo`
 
 - **Optional:**
-    - `figlet`: For figlet logos mode.
-    - `viu`: For image mode.
     - `curl`: For weather stat.
-    - `pciutils`: For GPU stat.
 
 **2.** Clone the official catnap repository:
 ```shell

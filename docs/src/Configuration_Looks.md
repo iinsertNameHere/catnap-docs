@@ -1,4 +1,4 @@
-# 🚩 Main Misc Configuration
+# 🚩 Looks Configuration
 
 **File:** `config.toml`
 
