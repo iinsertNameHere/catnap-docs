@@ -1,6 +1,5 @@
 [book]
-authors = ["iinsertNameHere"]
+authors = ["iinsert"]
 language = "en"
-multilingual = false
 src = "src"
 title = "Catnap Systemfetch"
