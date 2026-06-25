@@ -2,6 +2,65 @@
 
 ---
 
+## From source (Recommended)
+
+**Dependencies:**
+
+| Dependency | Purpose |
+|---|---|
+| `nim` | Build toolchain (v2.x+) |
+| `gzip` | Build toolchain |
+| `pcre` | Runtime (regex) |
+| `usbutils` | Runtime (hardware info) |
+
+**1.** Clone the repository:
+
+```shell
+git clone https://github.com/iinsertNameHere/catnap.git
+cd catnap
+```
+
+**2.** Build and install:
+
+```shell
+nim install
+```
+
+This compiles catnap in release mode, installs the binary to `/usr/local/bin/`, and copies the default config files to `~/.config/catnap/`:
+
+```
+~/.config/catnap/
+├── config.cat
+├── distros.cat
+└── themes/
+    └── catppuccin-mocha.cat
+```
+
+> [!NOTE]
+> `nim install` requires `sudo` to write to `/usr/local/bin/`. To install without sudo, use `nim setup` instead. It builds the binary (placed in `bin/catnap` locally) and copies the config files to `~/.config/catnap/`, but does not install the binary to your PATH.
+
+**3.** Verify:
+
+```shell
+catnap
+```
+
+---
+
+## Updating (source)
+
+Pull the latest changes and reinstall:
+
+```shell
+git pull
+nim install
+```
+
+Your config files in `~/.config/catnap/` are not overwritten by `nim install`. Only the binary is replaced.
+
+> [!WARNING]
+> If you have local edits in the cloned source `config/` directory, `git pull` may produce merge conflicts there. Your installed config in `~/.config/catnap/` is always separate and is not affected by git operations.
+
 ## From a GitHub release
 
 Pre-built statically linked binaries are published on the [GitHub releases page](https://github.com/iinsertNameHere/catnap/releases). They have no external runtime dependencies.
@@ -61,62 +120,3 @@ sudo mv catnap /usr/local/bin/
 Config files are not touched by a binary update. If a new release adds new config variables, the defaults built into the binary apply automatically.
 
 ---
-
-## From source
-
-**Dependencies:**
-
-| Dependency | Purpose |
-|---|---|
-| `nim` | Build toolchain (2.x recommended) |
-| `gzip` | Build toolchain |
-| `pcre` | Runtime (regex) |
-| `usbutils` | Runtime (hardware info) |
-
-**1.** Clone the repository:
-
-```shell
-git clone https://github.com/iinsertNameHere/catnap.git
-cd catnap
-```
-
-**2.** Build and install:
-
-```shell
-nim install
-```
-
-This compiles catnap in release mode, installs the binary to `/usr/local/bin/`, and copies the default config files to `~/.config/catnap/`:
-
-```
-~/.config/catnap/
-├── config.cat
-├── distros.cat
-└── themes/
-    └── catppuccin-mocha.cat
-```
-
-> [!NOTE]
-> `nim install` requires `sudo` to write to `/usr/local/bin/`. To install without sudo, use `nim setup` instead. It builds the binary (placed in `bin/catnap` locally) and copies the config files to `~/.config/catnap/`, but does not install the binary to your PATH.
-
-**3.** Verify:
-
-```shell
-catnap
-```
-
----
-
-## Updating (source)
-
-Pull the latest changes and reinstall:
-
-```shell
-git pull
-nim install
-```
-
-Your config files in `~/.config/catnap/` are not overwritten by `nim install`. Only the binary is replaced.
-
-> [!WARNING]
-> If you have local edits in the cloned source `config/` directory, `git pull` may produce merge conflicts there. Your installed config in `~/.config/catnap/` is always separate and is not affected by git operations.
