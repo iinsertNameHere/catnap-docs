@@ -11,3 +11,6 @@ The site will be in `docs/book`.
 
 ## 🧪 Testing
 To test the site, run `mdbook serve` in the `docs/` directory and go to http://localhost:3000
+
+## 🤝 Contributing
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on editing pages, adding new ones, and writing style.

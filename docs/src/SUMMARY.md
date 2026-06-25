@@ -1,12 +1,19 @@
 # Summary
 
+[Home](Home.md)
+
 # Setup
-- [Installation](Setup_Installation.md)
-- [Basic Usage](Setup_Usage.md)
+- [Installation](Install.md)
+- [Quick Start](QuickStart.md)
+- [Usage](Usage.md)
+
+# Config Language
+- [Overview](Language.md)
+- [Colors](Colors.md)
 
 # Configuration
-- [Config Files](Configuration_Files.md)
-- [Colors](Configuration_Colors.md)
-- [Stats Config](Configuration_Stats.md)
-- [Looks Config](Configuration_Looks.md)
-- [Distro Art](Configuration_Distros.md)
+- [Config Files](Config_Files.md)
+- [Stats](Config_Stats.md)
+- [Looks](Config_Looks.md)
+- [Distro Art](Config_Distros.md)
+- [Themes](Config_Themes.md)
