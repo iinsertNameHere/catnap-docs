@@ -260,6 +260,7 @@ These are the variable names catnap reads by name when building its internal con
 | `$stats_margin_top` | integer | no | `0` | Blank lines above the stats block |
 | `$location` | string | no | `""` | City name for the weather stat |
 | `$graph_width` | integer | no | `15` | Default progress bar width for graph-enabled stats |
+| `$distroid` | string | no | | Overwrite what distro art is displayed |
 
 The 17 pre-injected color variables (`$red`, `$blue`, etc.) are also recognized. See [Colors](Colors.md) for the full list.
 
